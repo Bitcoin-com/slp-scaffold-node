@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Bitcoin-com/wormhole-scaffold-node.git"
+    "url": "git+https://github.com/Bitcoin-com/slp-scaffold-node.git"
   },
   "bugs": {
-    "url": "https://github.com/Bitcoin-com/wormhole-scaffold-node/issues"
+    "url": "https://github.com/Bitcoin-com/slp-scaffold-node/issues"
   },
-  "homepage": "https://github.com/Bitcoin-wormhole/bitbox-scaffold-node#readme",
+  "homepage": "https://github.com/Bitcoin-com/slp-scaffold-node#readme",
   "devDependencies": {
-    "slp-sdk": "0.0.5",
+    "slp-sdk": "0.1.1",
     "chai": "^4.1.2",
     "flow-bin": "^0.64.0",
     "nyc": "^11.6.0",
