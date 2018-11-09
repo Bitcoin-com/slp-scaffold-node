@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+  - "8"
+dist: trusty
+sudo: required
+services:
+  - docker
+script: "npm run test"
+after_success:
+  - npm run coverage
+notifications:
+  slack:
+    secure: RmszLq+W7KRoOAmoRc4tfr0VorfbABmzN0t5I0RJVPZ975w5jKFntrs4QywZOmAHMn9SJn6DoMVuvk8+cPmkRvB4G1Nl67TTGiONqXaJyzsSF4qeLw/UwSYFbmqU2XrYbut+VQo7PpYphw/FVNew3DzRfYUq+GIWfPyqRUmeRcAg4YGOKMNMz+7iCtvwPZbXfQ/KxYgRWaEArReZ5KEhnQHWBZg8HMkZPM3y6caaMvY8GzyEss8gU7xwsLTsbqog3vQWjvNpsfPMdXTNbnThCNHArNgJkv4+45t+Hf+6/YwE+NVDD6UwTWysdJ6lBcHhIpAlf9JJIt9hWxFlFJZStB7d0uhJ0MwCoplywExsA3qwqcuzLulqRCKOPLJTU7QyzlkkYvwMoGI9Z4IZ+Fi4Kt8A5tGRp2WwE/p0Z8Ka01huVgZCSR4CUoiALV/novf4GUdnQ0I/9xDQbwL7hrWpkQip8vHZvFT/lWlUEmIVmUoxL7x5rjtI8CfoJvMp0BAk18X4oU5mQ1jblokf0t2LUZNG2F4eA60lg0AsQLRPl1m83+/1h/AD9FVIAWNHNRU46PLbGEEKKGRILi8pjr7aS4wumrnEVHwQG4IlzzfQgzSkY/6d/z0la4dtvLwOQ3KGSEK6WTbqr5kqkTBBNYWHXOwldlbqNJ3CeJFkc1uNFk0=
