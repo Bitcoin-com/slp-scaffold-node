@@ -1,6 +1,6 @@
 {
   "name": "slp-scaffold-node",
-  "version": "0.4.4",
+  "version": "0.4.7",
   "description": "Basic command line node app w/ SLP SDK bindings",
   "author": "Gabriel Cardona @ Bitcoin.com",
   "license": "MIT",
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/Bitcoin-com/slp-scaffold-node#readme",
   "devDependencies": {
-    "slp-sdk": "0.4.4",
+    "slp-sdk": "0.4.7",
     "chai": "^4.1.2",
     "flow-bin": "^0.64.0",
     "nyc": "^11.6.0",
