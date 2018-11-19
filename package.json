@@ -1,6 +1,6 @@
 {
   "name": "slp-scaffold-node",
-  "version": "0.4.8",
+  "version": "0.4.9",
   "description": "Basic command line node app w/ SLP SDK bindings",
   "author": "Gabriel Cardona @ Bitcoin.com",
   "license": "MIT",
